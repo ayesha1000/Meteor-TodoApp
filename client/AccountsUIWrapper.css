@@ -1,0 +1,47 @@
+.accounts-dialog {
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 20% 20%;
+}
+
+a.login-link-text {
+    text-decoration: none !important;
+    padding: 2% 0 !important;
+    margin: 0 0 !important;
+    background-color: #633f6e
+
+}
+
+a.login-close-text {
+    border: 2px solid #633f6e !important;
+    padding: 3% 3%;
+    margin: 3% 35%;
+    color: #633f6e !important;
+    font-weight: bold !important;
+    text-decoration: None !important;
+    text-align: center !important;
+}
+
+a.login-close-text:hover {
+    background-color: #633f6e !important;
+    color: white !important;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+div.login-button, button.login-button {
+    background: #633f6e !important;
+    border-radius: 10px !important;
+    border: 2px solid #633f6e !important;
+}
+
+div.login-button:hover, button.login-button:hover {
+    background: white !important;
+    color: #633f6e !important;
+    font-weight: bold;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+input {
+    color: black !important;
+}

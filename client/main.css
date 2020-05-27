@@ -1,0 +1,271 @@
+/* CSS declarations go here */
+body{
+  background: linear-gradient(rgb(11, 143, 143),rgb(198, 219, 5), rgb(41, 1, 31));
+}
+.main-section-container {
+  background-color: #633f6e;
+ 
+  padding: 2%;
+}
+.inputs{
+  background-color: #acc7c1;
+}
+.dark-nav, .dark-nav .nav-item, .dark-nav ul, .dark-nav li, .dark-nav span {
+  background-color: #633f6e !important;
+  color: white !important;
+}
+
+
+li.nav-item{
+  border-bottom: 0 !important;
+}
+
+.dark-nav>a {
+  background: #633f6e;
+  color: white !important;
+}
+
+span#login-buttons {
+  background: #633f6e !important;
+}
+
+.shadow-box {
+  
+  box-shadow: black 0 0 10px;
+  padding: 5% 5%;
+  margin: 0 auto;
+  min-height: 100%;
+ background: rgb(236, 229, 238); 
+ 
+  
+}
+
+.shadow-box-neat {
+  box-shadow: black 0 0 3px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+ 
+}
+
+.header {
+  color: white;
+  -webkit-box-shadow: #633f6e 1px 1px 5px;
+  -moz-box-shadow: #633f6e 1px 1px 5px;
+  box-shadow: #633f6e 1px 1px 5px;
+  overflow: auto;
+  background: linear-gradient(rgb(105, 7, 81), rgb(10, 80, 92));
+  background-size: cover;
+  position: relative;
+  padding: 1%;
+}
+
+#login-header {
+  margin-top: 0;
+  padding: 5% 10%;
+}
+ 
+#login-buttons {
+  display: block;
+}
+ 
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+ 
+form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+ 
+.new-task input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding-right: 80px;
+  font-size: 1em;
+}
+ 
+.new-task input:focus{
+  outline: 0;
+}
+ 
+ul {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+ 
+.delete {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1em;
+  border: none;
+  position: relative;
+}
+ 
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: #eee solid 1px;border-left: orange solid 6px ;}
+
+  li.private {
+    background: #eee;
+    border-color: #ddd;border-left: green solid 6px ;}
+    
+li .text {
+  margin-left: 10px;
+}
+ 
+li.checked {
+  color: #888;
+}
+ 
+li.checked .text {
+  text-decoration: line-through;
+}
+ 
+
+ 
+header .hide-completed {
+  float: right;
+}
+/*.circular-progress{width: 200px; height: 200px; padding: 5px;padding-top:10px; margin-left:400px; }*/ 
+.circular-progress{width: 200px; height: 200px; }
+/*.circular-progress1{  margin-left: 50px;padding: 5px;padding-top:10px;  } 
+.circular-progress1{ padding: 5px;padding-top:5px; padding-left:180px; padding-right: 0px;float: left } 
+.circular-progress2{  padding: 5px; padding-top:5px; padding-left: 30px; text-align: center;}*/
+
+.circular-progress1{ padding: 5px;padding-top:10px;  } 
+.circular-progress1{ padding: 5px;padding-top:5px;  padding-left:180px;float: left } 
+.circular-progress2{  padding: 5px; padding-top:5px;  text-align: center;} 
+.image1{ width: 200px;
+height: 200px;
+border: 8px solid rgb(114, 156, 16);
+border-radius: 50%;
+}
+.image2{ width: 200px;
+  height: 200px;
+  border: 8px solid rgb(116, 66, 113);
+  border-radius: 50%;
+}
+.image3{ width: 200px;
+    height: 200px;
+    border: 8px solid rgb(163, 13, 38);
+    border-radius: 50%;
+}
+.image4{ width: 200px;
+      height: 200px;
+      border: 8px solid rgb(8, 133, 138);
+      border-radius: 50%;
+}
+
+  .mycenter{
+    text-align: center;
+  }
+.column {
+  float: left;
+
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.toggle-private {
+  margin-left: 5px;}
+ 
+@media (max-width: 600px) {
+  li {
+    padding: 12px 15px;
+  }
+
+  .search {
+    width: 150px;
+    clear: both;
+  }
+ 
+  .new-task input {
+    padding-bottom: 5px;
+  }
+}
+
+input {
+  color: black !important;
+}
+
+#todo-list .private.private {
+  background-color: #666666 !important;
+  color: white;
+  padding: 2% 5% !important;
+ }
+
+#todo-list li {
+  background-color: rgb(8, 133, 138) !important;
+  color: white;
+  padding: 2% 5% !important;
+}
+#todo-list-work .private.private {
+  background-color: #666666 !important;
+  color: white;
+  padding: 2% 5% !important;
+ }
+#todo-list-grocery li {
+  background-color: rgb(163, 13, 38) !important;
+  color: white;
+  padding: 2% 5% !important;
+}
+#todo-list-grocery .private.private {
+  background-color: #666666 !important;
+  color: white;
+  padding: 2% 5% !important;
+ }
+#todo-list-work li {
+  background-color: rgb(116, 66, 113) !important;
+  color: white;
+  padding: 2% 5% !important;
+}
+
+#todo-list-home .private.private {
+  background-color: #666666 !important;
+  color: white;
+  padding: 2% 5% !important;
+ }
+#todo-list-home li {
+  background-color: rgb(114, 156, 16) !important;
+  color: white;
+  padding: 2% 5% !important;
+}
+/* For scroll bar */
+body::-webkit-scrollbar {
+  width: .8em;
+  border-radius: 1000px;
+}
+
+
+body::-webkit-scrollbar-track {
+  border: 2px solid #633f6e;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #633f6e;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #633f6e;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: white;
+}
